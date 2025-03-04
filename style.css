@@ -1,0 +1,20 @@
+.header_footer {
+    border: 2px solid #0345ae;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.alertBlock {
+    border: 2px solid #0345ae;
+    background-color: white;
+    padding: 10px;
+    float: left;
+    width: 20%;
+}
+
+#infopage {
+    width: 65%;
+    float: left;
+}

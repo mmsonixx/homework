@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тестування з інформатики</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body background="img/fon.jpg">
+    <header class="header_footer">
+        <h1 style="text-align: center;">Тестування з теми "Правила ергономічного розміщення відомостей на веб-сторінці"</h1>
+    </header>
+    <div id="leftBlock" class="alertBlock">
+        <h2>Бажаю успіхів!</h2>
+        <img src="img/test.png" width="100px">
+    </div>
+    <div id="infopage">
+        <h2>Онлайн-тест</h2>
+        <form id="quizForm">
+            <p>1. Який тег використовується для створення гіперпосилання?</p>
+            <input type="radio" name="q1" value="a"> &lt;a&gt;<br>
+            <input type="radio" name="q1" value="b"> &lt;link&gt;<br>
+            <input type="radio" name="q1" value="c"> &lt;href&gt;<br>
+            
+            <p>2. Який формат файлу використовується для стилів?</p>
+            <input type="radio" name="q2" value="a"> .html<br>
+            <input type="radio" name="q2" value="b"> .css<br>
+            <input type="radio" name="q2" value="c"> .js<br>
+            
+            <br>
+            <button type="button" onclick="checkAnswers()">Перевірити відповіді</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <footer class="header_footer">
+        <center>© Всі права захищені 2025. Розробник ...</center>
+    </footer>
+</body>
+</html>
